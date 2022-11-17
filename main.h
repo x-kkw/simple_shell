@@ -166,6 +166,7 @@ int check_error_cmd(char *dir, data_shell *datash);
 int cmd_exec(data_shell *datash);
 
 /* env1.c */
+int cmp_env_name(const char *nenv, const char *name);
 char *_getenv(const char *name, char **_environ);
 int _env(data_shell *datash);
 
